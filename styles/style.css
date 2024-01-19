@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 30px 200px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #424242;
+}
+.banner-content {
+  text-align: center;
+  margin: 0px auto;
+}
+.banner-title {
+  max-width: 53.875rem;
+  margin: 2rem auto;
+  color: #131313;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.banner-description {
+  max-width: 50rem;
+  margin: 2rem auto;
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+.btn-primary {
+  width: 11.25rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: #ff900e;
+  cursor: pointer;
+
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.banner img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Main section  */
+main {
+  margin: 50px 240px;
+}
+.teams-container {
+  display: flex;
+  gap: 4.75rem;
+  align-items: center;
+}
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.teams-img-container img {
+  width: 13rem;
+  height: 13rem;
+}
+.teams-title {
+  color: #727272;
+  font-size: 2.8125rem;
+  font-weight: 500;
+}
+.of-our {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+.features {
+  color: #ff900e;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+.teams-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.features-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+}
+.feature-content {
+  width: 70%;
+}
+.feature-title {
+  border-left: #ff900e solid 5px;
+  padding-left: 20px;
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.feature-discription {
+  margin-top: 0;
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: #fff;
+  flex-shrink: 0;
+}
+.card-title {
+  color: #131313;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 0;
+}
+.card-discription {
+  max-width: 100%;
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  padding: 1rem;
+  margin-top: 0;
+}
+.feature-image img {
+  height: 90%;
+  width: 100%;
+}
+.year-exp {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 11.25rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  background: #ff900e;
+  position: relative;
+  bottom: 60px;
+  right: 30px;
+}
+.year-exp h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  bottom: 30px;
+}
+.year-exp p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  bottom: 50px;
+}
+
+.fact-title {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+.fact-discription {
+  width: 50%;
+  color: #727272;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.awards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.awards {
+  text-align: center;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ff900e;
+}
+.awards-container img {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+.award-number {
+  color: #424242;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.award-name {
+  color: #727272;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sponsors-container {
+  text-align: center;
+}
+.sponsor-title {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.sponsor-discription {
+  max-width: 33.875rem;
+  text-align: center;
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin: 1.5rem auto 3rem;
+}
+.sponsor-logo img {
+  width: 7rem;
+  height: 2rem;
+}
+.sponsor-logo {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.footer-discription {
+  color: #424242;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: #fff4e7;
+  margin: 5rem auto 0rem;
+  padding: 2rem 0rem;
+}
+
+/* Responsive  */
+
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  main {
+    margin: 50px;
+  }
+  .teams-container,
+  .features-container,
+  .awards-container {
+    flex-direction: column;
+  }
+  .teams-img-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .teams-img-container img {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-content {
+    width: 100%;
+  }
+  .sponsor-logo {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .awards-container {
+    align-items: center;
+    gap: 5rem;
+  }
+  .facts-container {
+    text-align: center;
+  }
+  .fact-discription {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* Tablet / Medium Devices  */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  main {
+    margin: 50px;
+  }
+  .teams-container,
+  .features-container,
+  .awards-container {
+    flex-direction: column;
+  }
+  .teams-img-container img {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-content {
+    width: 100%;
+  }
+  .sponsor-logo {
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  .awards-container {
+    align-items: center;
+    gap: 5rem;
+  }
+  .facts-container {
+    text-align: center;
+  }
+  .fact-discription {
+    text-align: center;
+    width: 100%;
+  }
+}
